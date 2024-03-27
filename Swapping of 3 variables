@@ -1,0 +1,8 @@
+A=int(input("enter the value of A"))
+B=int(input("enter the value of B"))
+C=int(input("enter the value of C"))
+A=A+B+C
+B=A-(B+C)
+C=A-(B+C)
+A=A-(B+C)
+print("the swapping numbers are:",A,B,C)
