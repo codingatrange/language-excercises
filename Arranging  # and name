@@ -1,0 +1,5 @@
+n = 'l#a#l#l#i'
+c=n.count('#')
+print(c)
+x=n.replace('#',"")
+print(c*'#'+x)
